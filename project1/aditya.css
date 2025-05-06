@@ -1,0 +1,77 @@
+body{
+    margin:0;
+    padding: 0;
+}
+.a{
+    list-style-type: none;
+    background-color: maroon;
+    color: white;
+    padding: 5px;
+    margin: 20;   
+}
+.b{
+    background-color: white
+}
+.b{
+    margin-top: -0.4cm;
+}
+.c{
+    background-color: maroon;
+    color: white;
+    margin-top: -0.5cm;
+}
+.e{
+    margin-top: -0.4cm;     
+}
+.d{
+    background-color: white;           
+}
+
+
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: maroon;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin-top: -0.5cm;
+}
+
+
+ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+ul li :hover.dropdown{
+    background-color: green;
+    color: white;
+}
+
+.dropdown{display: none;}
+
+ul li :hover.dropdown{
+    display: block;
+    position: absolute;
+    margin-left: -0.3cm;
+    margin-top: 0.28cm;
+}
+
+.dropdown ul li{
+    display: block;
+}
+
+
+.dropdown ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+

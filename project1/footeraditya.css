@@ -1,0 +1,99 @@
+/*footer*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+ 
+body{
+    height: 100%;
+    margin: 0;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Robote",column;
+    background: #eef8ff;
+}
+
+footer{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    color: #fff;
+    padding:  20px;
+    border-top-left-radius: 40%;
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: -100;
+  
+}
+
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.col{
+    width   : 25%;
+    padding: 60px;
+}
+
+.logo{
+    width: 80px;
+    margin-bottom: 30px;
+}
+
+/*col2*/
+.col h3{
+    width: fit-content;
+    margin-bottom: 20px;
+    position: relative;
+    
+}
+
+.email-id{
+    width: fit-content;
+    border-bottom: 1px solide #ccc;
+    margin: 20px 0 ;
+}
+
+/*col3*/
+ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/*col4*/
+
+form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+
+
+form input{
+    width: 100%;
+    background: transparent;
+    color: #ccc;
+    border: 0;
+    outline: none;
+}
+
